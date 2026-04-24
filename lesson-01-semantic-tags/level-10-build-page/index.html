@@ -2,14 +2,83 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="style.css" />
     <meta charset="utf-8" />
-    <title>Semantic page starter</title>
+    <title>Semantic Structure</title>
   </head>
   <body>
     <!-- TODO: Compose a short page using header, nav, main, sections, lists, images (with alt), and footer -->
-    <div class="starter">
-      <h2>Starter title</h2>
-      <p>Replace this with a semantic page structure.</p>
-    </div>
+    <header>
+      <nav>
+        <a href="https://www.youtube.com/watch?v=DYe73Y-FOVg"
+          >SEO Structure and Accesibility Tutorial Video</a
+        >
+      </nav>
+      <h1>SEO Structure and Accessibility</h1>
+    </header>
+    <main>
+      <div class="imageWrap">
+        <figure>
+          <img
+            class="images"
+            src="pexels-code-1839406.jpg"
+            alt="image of coding on a computer screen"
+          />
+          <figcaption>Pexels - Pixabay - CC0</figcaption>
+        </figure>
+      </div>
+      <section>
+        <article>
+          <h2>Semantic Tags and Landmarks</h2>
+          <h3>Semantic tags</h3>
+          <p>
+            Semantic tags give purpose and structure to a website making the
+            page more accessible to the user and more discoverable in an
+            optimized search engine. Some tags require a closing tag; there are
+            tags called void tags that do not.
+          </p>
+          <h3>Landmarks</h3>
+          <p>
+            Landmarks improve content discovery and assist in locating important
+            content faster in optimized search engines. These elements gives a
+            specific label to each section of the code by organizing the
+            elements into a container. Landmarks are similar to semantic tags;
+            they are what is for more accesiblity, where sematic tags are the
+            structure of the written code.
+          </p>
+          <details>
+            <summary>Examples of Semantic Tags and Landmarks</summary>
+            <ul>
+              <li>doctype html</li>
+              <li>html</li>
+              <li>header</li>
+              <li>body</li>
+              <li>main</li>
+              <li>section/article</li>
+              <li>footer</li>
+            </ul>
+          </details>
+        </article>
+        <article>
+          <h2>InLine Code and Preformatted Text</h2>
+          <h3>InLine Code and Preformatted Text</h3>
+          <p>
+            Inline coding uses code tags to format fragments of text within a
+            line of text. The pre code preserves extra spaces and line breaks in
+            codes often paired with the code tag.
+          </p>
+          <details>
+            <summary>Example of inline coding</summary>
+            <p>Inline coding: <code>var= 1</code></p>
+            <pre>
+                <code>
+                  function greet()
+                  { return 'hi'; } 
+                </code>
+            </pre>
+          </details>
+        </article>
+      </section>
+    </main>
   </body>
 </html>
