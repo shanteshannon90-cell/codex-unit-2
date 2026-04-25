@@ -3,12 +3,70 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Lesson 02 — Level 11</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact Form</title>
   </head>
   <body>
-    <h1>Level 11 — Integrate & Polish</h1>
+    <!-- TODO: Combine all pieces: inputs, labels, fieldsets, validation, and submit control -->
     <form>
-      <!-- TODO: Combine all pieces: inputs, labels, fieldsets, validation, and submit control -->
+      <h1>About Me</h1>
+      <div class="container">
+        <h2>Contact Form</h2>
+        <label for="name">First Name</label>
+        <input type="text" id="name" /><br />
+
+        <label for="name">Last Name</label>
+        <input type="text" id="name" /><br />
+
+        <label for="telephoneNumber">Telephone Number</label>
+        <input type="tel" id="telephone" /><br />
+
+        <label for="ageRange">Age</label>
+        <input type="range" min="13" max="99" /><br />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" /><br />
+
+        <label for="password">Password</label>
+        <input type="password" required minlength="4" maxlength="12" /><br />
+
+        <label for="file">Choose File</label>
+        <input type="file" id="file" /><br />
+
+        <fieldset>
+          <legend>Contact Preference</legend>
+
+          <input type="checkbox" value="email" />
+          <label for="email">Email</label>
+
+          <input type="checkbox" value="tel" />
+          <label for="tel">Telephone Number</label>
+
+          <input type="checkbox" value="sms" />
+          <label for="sms">SMS</label>
+        </fieldset>
+        <fieldset>
+          <legend>Best Time to Contact</legend>
+          <select>
+            <optgroup label="Morning">
+              <option value="8-10">8 AM - 10 AM</option>
+              <option value="10-12">10 AM - 12 PM</option>
+            </optgroup>
+            <optgroup label="Afternoon">
+              <option value="12-3">12 PM - 3 PM</option>
+              <option value="3-5">3 PM - 5 PM</option>
+            </optgroup>
+            <optgroup label="Evening">
+              <option value="5-7">5 PM - 7 PM</option>
+              <option value="7-9">7 PM - 9 PM</option>
+            </optgroup>
+          </select>
+        </fieldset>
+        <label for="textarea">Message</label>
+        <textarea id="message" rows="5" column="5"></textarea><br />
+
+        <button class="button" type="submit">Submit</button>
+      </div>
     </form>
   </body>
 </html>
