@@ -10,6 +10,17 @@
     <form>
       <!-- TODO: Add required attributes and minlength/maxlength where appropriate -->
       <!-- TODO: If using a range input, include min and max -->
+      <label for="password">Password</label>
+      <input
+        type="password"
+        name="password"
+        required
+        minlength="4"
+        maxlength="10"
+      />
+      <label for="range">Age Range</label>
+      <input type="range" min="1" max="75" />
+      <button type="submit">Submit</button>
     </form>
   </body>
 </html>
