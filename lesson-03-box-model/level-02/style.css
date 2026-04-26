@@ -4,3 +4,16 @@
   margin: 2rem;
 }
 /* TODO: add styles for .layer-content, .layer-padding, .layer-border, .layer-margin */
+.layer-margin {
+  background-color: aqua;
+}
+.layer-border {
+  border: 5px solid red;
+}
+.layer-padding {
+  background-color: blueviolet;
+  padding: 10px;
+}
+.layer-content {
+  background-color: cornflowerblue;
+}
