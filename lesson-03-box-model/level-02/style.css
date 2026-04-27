@@ -5,7 +5,9 @@
 }
 /* TODO: add styles for .layer-content, .layer-padding, .layer-border, .layer-margin */
 .layer-margin {
-  background-color: aqua;
+  background-color: rgb(0, 255, 255);
+  border: 15px solid rgb(36, 244, 36);
+  margin: auto;
 }
 .layer-border {
   border: 5px solid red;
