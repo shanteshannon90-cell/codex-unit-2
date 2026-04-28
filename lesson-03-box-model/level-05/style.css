@@ -1,10 +1,11 @@
 /* TODO: Change display types to see how width/height/padding behave */
 .demo-inline {
-  display: inline;
+  display: inline-block;
   background: #fee;
 }
 .demo-block {
-  display: block;
+  display: inline-block;
   background: #eef;
   width: 200px;
+  height: 200px;
 }
