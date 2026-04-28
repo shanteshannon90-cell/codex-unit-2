@@ -10,6 +10,11 @@ const lifeDashboard = {
     city: "Statesville",
     state: "North Carolina",
   },
+  theme:{
+    color:"blue",
+    color: "black",
+    color:"pink",
+  }
 };
-
+export default lifeDashboard.theme.color;
 export default lifeDashboard.address;
