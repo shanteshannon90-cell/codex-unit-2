@@ -1,1 +1,7 @@
 /* TODO: Inspect and override user-agent defaults like margins on headings and paragraphs */
+p {
+  margin: 25px;
+}
+h1 {
+  margin: 0px;
+}
