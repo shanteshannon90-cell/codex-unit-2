@@ -1,0 +1,34 @@
+# Level 10 — Declare 10 small functions
+
+## Objective
+
+Write ten small named functions (or arrow functions). Each must have a verb-starting camelCase name, accept NO parameters, and return a descriptive string. Export one function as the default if needed by tests.
+
+## Benefits
+
+- Practice function declaration and return syntax.
+
+## Complete these tasks
+
+- Add 10 functions, each returning a short descriptive string about what it would do.
+- Export one of the functions as the `default` export so unit tests can import and inspect it.
+
+## Hints
+
+- Use `function getName() { return "..."; }` or `const getName = () => "...";`.
+
+## More information
+
+- Function names that start with a verb (get, set, fetch) help communicate intent.
+
+## Usage tips
+
+- Keep each function short and focused.
+
+## Example
+
+```js
+function getUser() {
+  return "returns the current user";
+}
+```
