@@ -32,3 +32,4 @@ const order = {
 };
 
 const id = order.id;
+const address = order.id.address;

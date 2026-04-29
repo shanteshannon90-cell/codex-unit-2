@@ -7,3 +7,14 @@
 // Add your lines below:
 
 let userName;
+let lastName;
+let carMake;
+let favoriteAnimal;
+let occupation;
+let carYear;
+let birthCity;
+let userAge;
+let favoriteColor;
+let favoriteFood;
+
+export default birthCity;

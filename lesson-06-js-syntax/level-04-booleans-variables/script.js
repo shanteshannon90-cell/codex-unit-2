@@ -5,3 +5,12 @@
 // let isLoggedIn = false;
 
 let isLoggedIn = false;
+let hasPermission = false;
+let isStudent = true;
+let isOnline = true;
+let canRunFast = false;
+let shouldKnowJS = true;
+let hasChildren = true;
+let canTypeFast = true;
+let hasErrors = false;
+let isComplete = true;
