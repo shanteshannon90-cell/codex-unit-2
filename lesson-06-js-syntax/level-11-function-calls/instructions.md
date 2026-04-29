@@ -13,6 +13,7 @@ Call the helper `reportScore(playerName, score)` 10 times with different argumen
 - Make 10 calls to `reportScore` using different player names and scores.
 - Save each return value as a `const` with a descriptive name.
 - Export one of the `const` report variables as the `default` export so unit tests can inspect a submitted value.
+- Write each line from scratch; do NOT copy & paste any code. Typing each line reinforces syntax memory and debugging skills.
 
 ## Hints
 

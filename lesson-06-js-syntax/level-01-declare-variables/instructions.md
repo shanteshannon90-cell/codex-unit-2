@@ -14,6 +14,7 @@ Declare ten separate variables using with NO initial value (no `=`). Do not use 
 - Add 10 `let` declarations, one per line, with descriptive camelCase names.
 - Leave each variable uninitialized.
 - Export one of the declared variables as the `default` export so unit tests can inspect a submitted value.
+- Write each line from scratch; do NOT copy & paste any code. Typing each line reinforces syntax memory and debugging skills.
 
 ## Hints
 

@@ -12,6 +12,7 @@ Given a nested object, access 5 properties at depth-1 and 5 properties at depth-
 
 - Create one-line declarations that extract depth-1 and depth-2 properties into descriptive camelCase variables.
 - Export one of the extracted values as the `default` export so unit tests can inspect a submitted value.
+- Write each line from scratch; do NOT copy & paste any code. Typing each line reinforces syntax memory and debugging skills.
 
 ## Hints
 

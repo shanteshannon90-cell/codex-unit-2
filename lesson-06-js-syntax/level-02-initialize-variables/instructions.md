@@ -14,6 +14,7 @@ Declare and initialize 10 variables on the same line: 5 descriptive strings and 
 - Add 5 string variables and 5 number variables, declared and initialized on the same line.
 - Use camelCase names like `userName` and `totalCount`.
 - Export one of the declared variables as the `default` export so unit tests can inspect a submitted value.
+- Write each line from scratch; do NOT copy & paste any code. Typing each line reinforces syntax memory and debugging skills.
 
 ## Hints
 

@@ -14,6 +14,7 @@ Part A: Assign values to five previously declared variables (each on its own lin
 - Assign values to five uninitialized variables on separate lines.
 - Repair five broken string initializations so they parse.
 - Export one of the assigned or repaired variables as the `default` export so unit tests can inspect a submitted value.
+- Write each line from scratch; do NOT copy & paste any code. Typing each line reinforces syntax memory and debugging skills.
 
 ## Hints
 

@@ -2,7 +2,7 @@
 
 ## Objective
 
-Write ten small named functions (or arrow functions). Each must have a verb-starting camelCase name, accept NO parameters, and return a descriptive string. Export one function as the default if needed by tests.
+Write ten small named functions. Each must have a verb-starting camelCase name, accept NO parameters, and return a descriptive string. Export one function as the default if needed by tests.
 
 ## Benefits
 
@@ -10,12 +10,14 @@ Write ten small named functions (or arrow functions). Each must have a verb-star
 
 ## Complete these tasks
 
-- Add 10 functions, each returning a short descriptive string about what it would do.
+- Add 10 functions that don't accept parameters
+- Each function must return a short descriptive string about what it would do.
 - Export one of the functions as the `default` export so unit tests can import and inspect it.
+- Write each line from scratch; do NOT copy & paste any code. Typing each line reinforces syntax memory and debugging skills.
 
 ## Hints
 
-- Use `function getName() { return "..."; }` or `const getName = () => "...";`.
+- Sample syntax `function getName() { return "abc"; }`
 
 ## More information
 

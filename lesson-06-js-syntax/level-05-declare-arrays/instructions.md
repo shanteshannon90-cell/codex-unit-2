@@ -13,6 +13,7 @@ Declare and initialize 10 arrays on the same line: 5 plural-named string arrays 
 - Add 5 string arrays and 5 number arrays with plural camelCase names (e.g., `userNames`).
 - Each array should contain at least 3 items.
 - Export one of the arrays as the `default` export so unit tests can inspect a submitted value.
+- Write each line from scratch; do NOT copy & paste any code. Typing each line reinforces syntax memory and debugging skills.
 
 ## Hints
 

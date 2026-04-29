@@ -12,6 +12,7 @@ Declare and initialize 10 object variables using descriptive camelCase names. Ea
 
 - Create 10 single-line object literals with descriptive names and >=3 properties each.
 - Export one of the created objects as the `default` export so unit tests can inspect a submitted value.
+- Write each line from scratch; do NOT copy & paste any code. Typing each line reinforces syntax memory and debugging skills.
 
 ## Hints
 

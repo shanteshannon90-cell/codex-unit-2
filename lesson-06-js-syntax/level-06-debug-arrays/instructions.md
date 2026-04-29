@@ -12,6 +12,7 @@ Fix common array syntax errors so each array is declared and initialized on one 
 
 - Repair 10 provided array snippets to valid one-line array declarations with >=3 items.
 - After repairing arrays, export one of the fixed arrays as the `default` export so unit tests can inspect a submitted value.
+- Write each line from scratch; do NOT copy & paste any code. Typing each line reinforces syntax memory and debugging skills.
 
 ## Hints
 

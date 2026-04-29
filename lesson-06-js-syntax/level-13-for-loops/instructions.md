@@ -10,8 +10,10 @@ Write 10 different `for` loops. Each loop must use a different start/end range a
 
 ## Complete these tasks
 
-- Implement 10 `for` loops with distinct start/end ranges and `console.log` in each body.
-- Export one representative value (for example a variable containing a sample output or a function) as the `default` export so unit tests can inspect a submitted artifact.
+- Implement 10 `for` loops.
+- Each loop should have different start/end ranges.
+- Use `console.log` in each `for` to display each count.
+- Write each line from scratch; do NOT copy & paste any code. Typing each line reinforces syntax memory and debugging skills.
 
 ## Hints
 

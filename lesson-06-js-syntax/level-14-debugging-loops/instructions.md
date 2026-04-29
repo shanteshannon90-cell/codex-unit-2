@@ -11,6 +11,7 @@ Repair provided loop snippets so they parse and run, printing the intended seque
 ## Complete these tasks
 
 - Fix 10 broken loop snippets to valid `for` loops that output the intended ranges.
+- Write each line from scratch; do NOT copy & paste any code. Typing each line reinforces syntax memory and debugging skills.
 
 ## Hints
 

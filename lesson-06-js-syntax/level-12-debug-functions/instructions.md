@@ -12,6 +12,7 @@ Fix five broken function declarations and their corresponding calls so each decl
 
 - Repair five broken function declarations and their example calls.
 - After repairing functions and calls, export one repaired function as the `default` export so unit tests can import and inspect it.
+- Write each line from scratch; do NOT copy & paste any code. Typing each line reinforces syntax memory and debugging skills.
 
 ## Hints
 

@@ -12,6 +12,7 @@ Fix ten single-depth object literals that each contain one syntax bug so they pa
 
 - Repair 10 provided objects so each is a valid object literal.
 - After fixing objects, export one of the repaired objects as the `default` export so unit tests can inspect a submitted value.
+- Write each line from scratch; do NOT copy & paste any code. Typing each line reinforces syntax memory and debugging skills.
 
 ## Hints
 
