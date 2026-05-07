@@ -7,3 +7,7 @@
 // console.log('before:', el && el.innerText);
 // // TODO: set el.innerText = '...';
 // console.log('after:', el && el.innerText);
+const descriptive = document.getElementById("desc");
+console.log(descriptive.innerText);
+descriptive.innerText = "hello world";
+console.log(descriptive.innerText);

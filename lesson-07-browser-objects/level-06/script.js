@@ -2,12 +2,10 @@
 // TODO: select the form element (e.g. document.getElementById('sample-form'))
 // TODO: log form.id, form.name, form.elements.length, form.enctype, form.className
 
-// Scaffold:
-// const form = document.getElementById('sample-form');
-// if (form) {
-//   console.log('id:', form.id);
-//   console.log('name:', form.name);
-//   console.log('elements length:', form.elements.length);
-//   console.log('enctype:', form.enctype);
-//   console.log('className:', form.className);
-// }
+const form = document.querySelector("#sample-form");
+console.log(form.id);
+console.log(form.name);
+console.log(form.elements.length);
+console.log(form.method);
+console.log(form.action);
+console.log(form.enctype);
