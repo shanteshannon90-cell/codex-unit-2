@@ -11,9 +11,10 @@
 
 ## Complete these tasks
 
-- Pick an API from the instructor list and find a suitable POST endpoint.
+- Pick an API from `https://free-apis.github.io` or search the internet.
+- Find a suitable POST endpoint.
 - Read the API docs.
-- Make the POST request with data and inspect the response.
+- Use Postman to make the POST request with data and inspect the response.
 - Use `script.js` to `console.log` one fact learned from the documentation.
 
 ## Hints
@@ -22,14 +23,8 @@
 
 ## More information
 
-- Some test APIs return an echoed version of your payload for verification; others return a created resource with an ID.
+- Some test APIs return an echoed version of your payload for verification. Others return a created resource with an ID.
 
 ## Usage tips
 
 - Start with minimal required fields to reduce validation errors.
-
-## Example
-
-```
-// In script.js: TODO: send a POST and log the parsed JSON response
-```

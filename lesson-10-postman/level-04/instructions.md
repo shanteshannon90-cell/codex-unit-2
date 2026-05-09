@@ -23,11 +23,10 @@
 
 ## More information
 
-- POST requests are commonly used to create resources; responses often include the created item or an ID.
-
+- POST requests are commonly used to create resources. Responses often include the created item or an ID.
 - To sending a POST request in Postman, set the request method to `POST` and enter the URL.
-- Headers: Postman will add `Content-Type: application/json` for raw JSON bodies, but check the `Headers` tab to confirm or add custom headers as needed.
-- Use the `Preview` / `Pretty` response view after clicking `Send` to inspect the returned status and JSON body; look for a `201` or `200` status.
+- Postman will add the header `Content-Type: application/json` for raw JSON bodies, but check the `Headers` tab to confirm or add custom headers as needed.
+- Use the `Preview` / `Pretty` response view after clicking `Send` to inspect the returned status and JSON body. Look for a `201` or `200` status.
 
 ## Usage tips
 

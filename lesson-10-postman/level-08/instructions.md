@@ -12,11 +12,11 @@
 ## Complete these tasks
 
 - Choose an API.
-- Create `index.html` with a form and attach `script.js`.
+- Create `index.html` with a form and attach `script.js` in the head.
 - Implement a submit handler that prevents default.
 - Format the data object.
-- Constructs the request with data
-- Calls the API.
+- Send the API request with data.
+- Parse the response into separate variables.
 - Provide user feedback and error messages.
 
 ## Hints
@@ -26,7 +26,7 @@
 
 ## More information
 
-- Use `fetch()` for HTTP requests in the browser and `response.json()` to parse JSON.
+- Use `fetch()` with `async/await` and `response.json()` to parse the received data.
 
 ## Usage tips
 
