@@ -11,9 +11,9 @@
 
 ## Complete these tasks
 
-- With Postman, send a GET request to `https://dummyjson.com/users`.
+- With Postman, send a GET request to `https://the-trivia-api.com/v2/questions`.
 - Inspect status, headers, and body.
-- Open the API docs `https://dummyjson.com`.
+- Open the API docs `https://the-trivia-api.com/docs/#tag/Questions/operation/getRandomQuestions`.
 - Use `script.js` to `console.log` one fact learned from the documentation.
 
 ## Hints
