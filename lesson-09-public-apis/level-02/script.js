@@ -1,11 +1,26 @@
 const formTag = document.getElementById("loginForm");
 formTag.onsubmit = handleSubmit;
+const error = document.getElementById("error");
+const success = document.getElementById("success");
 
-function handleSubmit(event) {
+async function handleSubmit(event) {
   event.preventDefault();
-  // TODO: Build `data` object from `form.elements` (username, password)
-  // TODO: Use async/await and fetch to POST to https://dummyjson.com/auth/login
-  // TODO: Include headers: { 'Content-Type': 'application/json' }
-  // TODO: Parse response into `result` and update `errorEl.innerText` or `successEl.innerText`
-  // TODO: On success, call form.reset()
+  const data = {
+    username: formTag.elements.username.value,
+    password: formTag.elements.password.value,
+  };
+  const dataString = JSON.stringify(data);
+  const response = await fetch("https://dummyjson.com/auth/login", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: dataString,
+  });
+  const result = await response.json();
+  if (!response.ok) {
+    error.innerText = "Invalid Credentials";
+    formTag.reset();
+  } else {
+    success.innerText = "Logged in";
+    formTag.reset();
+  }
 }
