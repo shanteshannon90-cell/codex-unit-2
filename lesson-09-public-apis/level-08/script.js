@@ -3,6 +3,7 @@ formTag.onsubmit = handleSubmit;
 
 async function handleSubmit(event) {
   event.preventDefault();
+  console.log("button works");
 
   const data = {
     "api-key": "89b3b872d87c4f7ea0cd73055dc305be",
@@ -13,13 +14,12 @@ async function handleSubmit(event) {
   const response = await fetch(
     "https://api.humorapi.com/memes/random" + "?" + queryString,
   );
+
   const result = await response.json();
 
-  const description = result.description;
-  const src = result.url;
-  const imageTag = document.getElementById("image");
   const outputTag = document.getElementById("display");
-
+  const description = result.description;
+  const imageTag = document.getElementById("image");
+  const src = result.url;
   outputTag.innerText = description;
-  imageTag.src = src;
 }
