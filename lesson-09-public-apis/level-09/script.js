@@ -1,10 +1,33 @@
 const formTag = document.getElementById("challengeForm");
 formTag.onsubmit = handleSubmit;
 
-function handleSubmit(event) {
+async function handleSubmit(event) {
   event.preventDefault();
-  // TODO: Construct `data` from formTag.elements
-  // TODO: Format data with `URLSearchParams` or `JSON.stringify`
-  // TODO: Save formatted data into `dataString` and send via fetch using async/await
-  // TODO: Parse `result` and update the page; handle errors with try/catch
+  try {
+    const form = event.target;
+    const data = {
+      username: form.elements.username.value,
+      password: form.elements.password.value,
+    };
+    const dataString = JSON.stringify(data);
+    const response = await fetch("https://dummyjson.com/users/login", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: dataString,
+    });
+    const result = await response.json();
+    const username = result.username;
+    const message = result.message;
+    const success = document.getElementById("success");
+    const error = document.getElementById("error");
+    if (username) {
+      success.innerText = "You are logged in as: " + username;
+      error.innerText = "";
+    } else if (message) {
+      error.innerText = message;
+      success.innerText = "";
+    }
+  } catch (error) {
+    console.log("An error has occurred");
+  }
 }
