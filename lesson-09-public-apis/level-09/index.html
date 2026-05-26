@@ -10,12 +10,16 @@
     <h1>API Challenge</h1>
     <form id="challengeForm">
       <label>
-        Input
-        <input name="value" />
+        Username
+        <input name="username" />
+      </label>
+      <label>
+        Password
+        <input name="password" type="password" required />
       </label>
       <button type="submit">Send</button>
     </form>
-
+    <div id="message"></div>
     <output id="error" aria-live="polite"></output>
     <output id="success" aria-live="polite"></output>
   </body>
