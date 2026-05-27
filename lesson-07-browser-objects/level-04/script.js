@@ -4,5 +4,5 @@
 
 const content = document.getElementById("content");
 console.log(content.innerHTML);
-content.innerHTML = "<p><strong>Updated content</strong></p>";
+content.innerHTML = "<p><strong>This is the new updated content</strong></p>";
 console.log(content.innerHTML);

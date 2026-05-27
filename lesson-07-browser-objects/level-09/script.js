@@ -1,9 +1,13 @@
 // Level 09 — event.target starter
 // TODO: inside submit handler inspect event.target and event.currentTarget
-const form = document.getElementById("sample-form");
-form.onsubmit = handleSubmit;
+console.log("script loaded");
+const formTag = document.getElementById("sample-form");
+formTag.onsubmit = handleSubmit;
 function handleSubmit(event) {
   event.preventDefault();
-  const formTag = event.target;
-  console.log(formTag.id);
+  const form = event.target;
+  console.log(event.target);
+  console.log(event.currentTarget);
+  const username = form.elements.username.value;
+  console.log(username);
 }

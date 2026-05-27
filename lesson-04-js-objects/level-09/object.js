@@ -4,15 +4,13 @@
 // const user = { name: 'Ava' }
 // user.greet = greet
 // export default user
-function greet(name){
-  return "hi " + name
+function greet(name) {
+  return "hi " + name;
 }
-
-
 const user = {
-  name="Shante"
+  name: "Shante",
 };
-user.greet=greet
+user.greet = greet;
 export default user;
 
 console.log(greet);

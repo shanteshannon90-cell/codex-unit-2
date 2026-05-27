@@ -4,5 +4,7 @@ const form = document.getElementById("sample-form");
 form.onsubmit = handleSubmit;
 function handleSubmit(event) {
   event.preventDefault();
-  console.log("submit handler: stays visible after navigation prevention");
+  console.log(
+    "Confirm logs remain visible after submit when navigation is prevented",
+  );
 }

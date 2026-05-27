@@ -8,7 +8,7 @@ Introduce the semantic HTML document skeleton and where content belongs.
 
 - Search engines use semantic structure (title, headings, landmarks) to understand page topic and surface relevant snippets — a clear `title` and single `h1` improve discoverability.
 - Proper metadata (like `meta[name="viewport"]` and `meta charset`) helps mobile-first indexing and correct rendering, which can affect search ranking and user experience.
-- Semantic tags (`header`, `main`, `nav`, `h1`) make the content more machine-readable for crawlers and assistive technologies, improving accessibility and SEO signals.
+- Semantic tags (`header`, `main`, `nav`, `h1`) make the content more machine-re1QA` qzadable for crawlers and assistive technologies, improving accessibility and SEO signals.
 - Clean document structure makes maintenance, automated testing, and content reuse (e.g., RSS or previews) simpler for developers and tools.
 
 ## Complete these tasks
