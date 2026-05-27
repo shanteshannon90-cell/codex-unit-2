@@ -1,5 +1,10 @@
 .demo {
   width: 200px;
   background: #eef;
+  padding: 10px;
+  margin: auto;
+  border-style: solid;
+  border-width: 3px;
+  border-color: blue;
 }
 /* TODO: change padding/border/margin values to see layout effects */
