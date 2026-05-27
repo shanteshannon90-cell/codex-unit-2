@@ -20,6 +20,7 @@ async function handleSubmit(event) {
   const outputTag = document.getElementById("display");
   const description = result.description;
   const imageTag = document.getElementById("image");
-  const src = result.url;
+  const src = result.image;
   outputTag.innerText = description;
+  imageTag.src = src;
 }
