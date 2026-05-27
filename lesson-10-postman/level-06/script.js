@@ -2,4 +2,6 @@
 
 // Students should replace the URL below with their chosen API endpoint.
 // TODO: fetch('https://api.example.com/endpoint')
-console.log("TODO: log one documentation fact here");
+console.log(
+  "The 'https://dog.ceo/api/breeds/list/all' endpoint returns a list of arrays of dog breeds",
+);
